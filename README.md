@@ -7,5 +7,7 @@ This standalone app generates JSON and image inputs to the DendroX app from a de
 \
 [MAC version]()
 
+
+### The user interface:
 ![Demo.png](ui.png)
 
