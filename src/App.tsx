@@ -144,18 +144,24 @@ export function App(){
   return <main className={styles.main}>
     <div className='header'>DendroX Cluster</div>
     <div className='holder'>
+      <div className='text-holder'>This app generates JSON and image inputs to the DendroX app from a delimited text file that contains a labeled matrix. An <a href='https://github.com/frlender/denrox-cluster/tree/main/example_input' rel="noreferrer" target='_blank'>example input file</a> can be found here. The app should be able to infer the delimiter in the file. The output consists of a png image for the cluster heatmap and two JSON files for the row and column dendrograms. Please use the buttons below to select the input file and the output folder:</div>
       <table>
         <tbody>
         <tr>
-          <td>Input file:</td>
+          <td className='select-td'>Input file:</td>
           <td><button onClick={selectFile}>Select</button>
               <span className='path'>{inputPath}</span></td>
         </tr>
         <tr>
-          <td>Output folder:</td>
+          <td className='select-td'>Output folder:</td>
           <td><button onClick={selectOuputPath}>Select</button>
               <span className='path'>{outputPath}</span></td>
         </tr>
+        </tbody>
+      </table>
+      <div className='text-holder text-holder2'>The app uses the Python Seaborn.clustermap function to generate figures under the hood. Please check the documentation <a href='https://seaborn.pydata.org/generated/seaborn.clustermap.html' rel="noreferrer" target='_blank'>here</a> and <a href='https://seaborn.pydata.org/generated/seaborn.heatmap.html#seaborn.heatmap'  rel="noreferrer" target='_blank'>here</a> for usage of the following parameters:</div>
+      <table>
+        <tbody>
         <tr>
           <td>Linkage method:</td>
           <td> {getComp('method')}</td>
