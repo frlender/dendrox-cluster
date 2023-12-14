@@ -1,5 +1,3 @@
-> "Eello World example": Create-React-App (CRA) and Eel
-
 # Dendrox Cluster
 This standalone app generates JSON and image inputs to the DendroX app from a delimited text file that contains a labeled matrix. An [example input file](https://github.com/frlender/denrox-cluster/tree/main/example_input) can be found here.
 
