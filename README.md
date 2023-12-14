@@ -3,7 +3,7 @@ This standalone app generates JSON and image inputs to the DendroX app from a de
 
 **Please download the MAC and Windows executables using the following links:**
 \
-[Windows version](https://github.com/frlender/denrox-cluster/blob/main/dist/Dendro_Cluster.exe)
+[Windows version](https://github.com/frlender/denrox-cluster/raw/main/dist/Dendro_Cluster.exe)
 \
 [MAC version]()
 
