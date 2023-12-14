@@ -1,4 +1,4 @@
-# Dendrox Cluster
+# DendroX Cluster
 This standalone app generates JSON and image inputs to the DendroX app from a delimited text file that contains a labeled matrix. An example input file can be found [here](https://github.com/frlender/denrox-cluster/tree/main/example_input).
 
 **Please download the MAC and Windows executables using the following links:**
