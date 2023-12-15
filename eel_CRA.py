@@ -126,7 +126,7 @@ def start_eel(develop):
         app = 'chrome-app'
         page = 'index.html'
 
-    eel.init(directory, ['.tsx', '.ts', '.jsx', '.js', '.html'])
+    eel.init(directory, ['.tsx', '.ts', '.jsx', '.js'])
 
     # These will be queued until the first connection is made, but won't be repeated on a page reload
     # say_hello_py('Python World!')

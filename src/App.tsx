@@ -144,7 +144,7 @@ export function App(){
   return <main className={styles.main}>
     <div className='header'>DendroX Cluster</div>
     <div className='holder'>
-      <div className='text-holder'>This app generates JSON and image inputs to the DendroX app from a delimited text file that contains a labeled matrix. An <a href='https://github.com/frlender/denrox-cluster/tree/main/example_input' rel="noreferrer" target='_blank'>example input file</a> can be found here. The app should be able to infer the delimiter in the file. The output consists of a png image for the cluster heatmap and two JSON files for the row and column dendrograms. Please use the buttons below to select the input file and the output folder:</div>
+      <div className='text-holder'>This program generates JSON and image inputs to the DendroX app from a delimited text file that contains a labeled matrix. An example input file can be found <a href='https://github.com/frlender/denrox-cluster/tree/main/example_input' rel="noreferrer" target='_blank'>here</a>. The app should be able to infer the delimiter in the input file. The output consists of a PNG file for the cluster heatmap image and two JSON files for the row and column dendrograms. Please use the buttons below to select the input file and the output folder:</div>
       <table>
         <tbody>
         <tr>
