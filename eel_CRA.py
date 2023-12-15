@@ -136,7 +136,7 @@ def start_eel(develop):
 
     eel_kwargs = dict(
         host='localhost',
-        port=8080,
+        port=8888,
         size=(1280, 800),
     )
     try:
