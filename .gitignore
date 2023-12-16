@@ -1,5 +1,9 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+example_input/*.json
+example_input/*.png
+
+
 # dependencies
 /node_modules
 /.pnp
