@@ -93,7 +93,10 @@ input.radio-left{
   margin-left: 1px;
 }
 
-
+.select{
+  background-color: white;
+  color:black;
+}
 
 /* a {
   color: inherit;

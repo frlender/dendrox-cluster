@@ -21,7 +21,7 @@ export default function Select(props:SelectProps){
                 return {label:x,value:x}
         })
     
-    return <select onChange={e=>props.onChange(e.target.value)}>
+    return <select className='select' onChange={e=>props.onChange(e.target.value)}>
         {options.map((option,i)=>
             <option key={i} value={option.value}>
                 {option.label}
