@@ -9,7 +9,7 @@ This standalone program provides a graphic user interface to generate JSON and i
 
 Note 1: When click on the Mac executable for the first time, the OS would probably block its running. Please click "System Preferences -> Security & Privacy -> General -> Open anyway" to give permission.
 
-Note 2: Currently, the Mac executable takes about 1~2 minutes to start. I am actvely looking for ways to reduce the time. 
+Note 2: Currently, the Mac executable takes about **1~2 minutes** to start. I am actvely looking for ways to reduce the time. 
 
 \
 After click on the executable, the following user interface should appear:
